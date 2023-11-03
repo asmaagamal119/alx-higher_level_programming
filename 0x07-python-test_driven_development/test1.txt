@@ -1,0 +1,17 @@
+The ``test`` module
+============================
+
+Using ``matrix_divided``
+---------------------
+
+Importing function from the module:
+
+    >>> matrix_divided = __import__('test').matrix_divided
+
+case 12:
+  >>> invalid_matrix = [[1, 2], [], [3, 4]]
+  >>> div = 2
+  >>> matrix_divided(invalid_matrix, div)
+  Traceback (most recent call last):
+      ...
+  TypeError: matrix must be a matrix (list of lists) of integers/floats
