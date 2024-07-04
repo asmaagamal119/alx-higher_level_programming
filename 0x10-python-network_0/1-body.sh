@@ -1,2 +1,3 @@
-test commit
-asmaagamal119
+#!/bin/bash
+#Write a Bash script that takes URL request
+curl -sL "$1"
